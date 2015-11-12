@@ -1,6 +1,6 @@
 package br.com.fafidev.webteca.negocio;
 
-import br.com.fafidev.webteca.entidade.Turma;
+import br.com.fafidev.webteca.entidade.PessoaJuridica;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -8,10 +8,10 @@ import org.slf4j.LoggerFactory;
  *
  * @author fernando
  */
-public class TurmaDAO extends GenericDAO<Turma> {
+public class PessoaJuridicaDAO extends GenericDAO<PessoaJuridica> {
 
-    public TurmaDAO() {
-        super(Turma.class);
+    public PessoaJuridicaDAO() {
+        super(PessoaJuridica.class);
     }
 
     @Override
